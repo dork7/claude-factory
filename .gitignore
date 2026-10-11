@@ -1,0 +1,14 @@
+# Factory state is local: it has to stay put while the builder switches branches.
+factory/board.json
+factory/backlog.md
+factory/jobs/
+factory/tokens.jsonl
+factory/messages.jsonl
+factory/errors.jsonl
+factory/requests.jsonl
+factory/audit.md
+
+# Secrets, dependencies and build output.
+.env
+node_modules/
+dist/
